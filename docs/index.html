@@ -228,9 +228,48 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="gitbook"><a href="https://xiexieni1992.github.io/gitbook/" target="_blank">gitbook</a></h1>
-<h2 id="1&#x3001;&#x4ECB;&#x7ECD;">1&#x3001;&#x4ECB;&#x7ECD;</h2>
+<h2 id="&#x4ECB;&#x7ECD;">&#x4ECB;&#x7ECD;</h2>
 <p>&#x200B;    &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;GitBook + Typora + Git&#x6587;&#x6863;&#x6258;&#x7BA1;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF01;</p>
-<h2 id="2&#x3001;&#x4F7F;&#x7528;gitbook">2&#x3001;&#x4F7F;&#x7528;gitbook</h2>
+<h2 id="&#x200B;1&#x3001;&#x76EE;&#x5F55;&#x7ED3;&#x6784;">&#x200B;1&#x3001;&#x76EE;&#x5F55;&#x7ED3;&#x6784;</h2>
+<pre><code>&#x251C;&#x2500;docs // github &#x9759;&#x6001;&#x8D44;&#x6E90;&#x6587;&#x4EF6;&#x5939;
+&#x2502;  &#x251C;&#x2500;.gitignore
+&#x2502;  &#x251C;&#x2500;gitbook
+&#x2502;  &#x2502;  &#x251C;&#x2500;fonts
+&#x2502;  &#x2502;  &#x2502;  &#x2514;&#x2500;fontawesome
+&#x2502;  &#x2502;  &#x251C;&#x2500;gitbook-plugin-fontsettings
+&#x2502;  &#x2502;  &#x251C;&#x2500;gitbook-plugin-highlight
+&#x2502;  &#x2502;  &#x251C;&#x2500;gitbook-plugin-lunr
+&#x2502;  &#x2502;  &#x251C;&#x2500;gitbook-plugin-search
+&#x2502;  &#x2502;  &#x251C;&#x2500;gitbook-plugin-sharing
+&#x2502;  &#x2502;  &#x2514;&#x2500;images
+&#x2502;  &#x2514;&#x2500;src
+&#x2502;      &#x251C;&#x2500;Todo01
+&#x2502;      &#x251C;&#x2500;Todo02
+&#x2502;      &#x251C;&#x2500;Todo03
+&#x2502;      &#x2514;&#x2500;Todo04
+&#x251C;&#x2500;src
+&#x2502;  &#x251C;&#x2500;Todo01
+&#x2502;  &#x251C;&#x2500;Todo02
+&#x2502;  &#x251C;&#x2500;Todo03
+&#x2502;  &#x2514;&#x2500;Todo04
+&#x2514;&#x2500;_book // &#x672C;&#x5730;&#x670D;&#x52A1;&#x5668;&#x6587;&#x4EF6;&#x5939;
+    &#x251C;&#x2500;.gitignore
+    &#x251C;&#x2500;gitbook
+    &#x2502;  &#x251C;&#x2500;fonts
+    &#x2502;  &#x2502;  &#x2514;&#x2500;fontawesome
+    &#x2502;  &#x251C;&#x2500;gitbook-plugin-fontsettings
+    &#x2502;  &#x251C;&#x2500;gitbook-plugin-highlight
+    &#x2502;  &#x251C;&#x2500;gitbook-plugin-livereload
+    &#x2502;  &#x251C;&#x2500;gitbook-plugin-lunr
+    &#x2502;  &#x251C;&#x2500;gitbook-plugin-search
+    &#x2502;  &#x251C;&#x2500;gitbook-plugin-sharing
+    &#x2502;  &#x2514;&#x2500;images
+    &#x2514;&#x2500;src // &#x6E90;&#x6587;&#x4EF6;&#x5939;
+        &#x251C;&#x2500;Todo01
+        &#x251C;&#x2500;Todo02
+        &#x251C;&#x2500;Todo03
+        &#x2514;&#x2500;Todo04
+</code></pre><h2 id="2&#x3001;&#x4F7F;&#x7528;gitbook">2&#x3001;&#x4F7F;&#x7528;gitbook</h2>
 <h3 id="21-&#x5B89;&#x88C5;&#x5E76;&#x521D;&#x59CB;&#x5316;gitbook">2.1 &#x5B89;&#x88C5;&#x5E76;&#x521D;&#x59CB;&#x5316;gitbook</h3>
 <pre><code>npm install -g gitbook-cli
 gitbook init
@@ -239,9 +278,12 @@ gitbook init
 SUMMARY.md &#x2014;&#x2014; &#x4E66;&#x7C4D;&#x7684;&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#x5728;&#x8FD9;&#x91CC;&#x914D;&#x7F6E;
 </code></pre><h3 id="22-typora-&#x7F16;&#x5199;summarymd">2.2 Typora &#x7F16;&#x5199;SUMMARY.md</h3>
 <pre><code>* [&#x524D;&#x8A00;](README.md)
-* [&#x6B63;&#x6587;](C/README.md)
-  * [&#x6BB5;&#x843D;](D/README.md)
-* [&#x540E;&#x8BB0;](F/README.md)
+* &#x6B63;&#x6587;
+  * [&#x6BB5;&#x843D;](src/Todo01/README.md)
+  * [&#x6BB5;&#x843D;](src/Todo02/README.md)
+  * [&#x6BB5;&#x843D;](src/Todo03/README.md)
+  * [&#x6BB5;&#x843D;](src/Todo04/README.md)
+* [&#x540E;&#x8BB0;]
 </code></pre><p>&#x4FDD;&#x5B58;&#x540E;&#xFF0C;&#x547D;&#x4EE4;&#x884C;&#x5DE5;&#x5177;&#x8FD0;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#xFF1A;</p>
 <pre><code>gitbook init
 </code></pre><p>GitBook &#x4F1A;&#x67E5;&#x627E; SUMMARY.md &#x6587;&#x4EF6;&#x4E2D;&#x63CF;&#x8FF0;&#x7684;&#x76EE;&#x5F55;&#x548C;&#x6587;&#x4EF6;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5219;&#x4F1A;&#x5C06;&#x5176;&#x521B;&#x5EFA;&#x3002;</p>
@@ -292,7 +334,7 @@ gitbook mobi ./ ./xxx.mobi
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"前言","level":"1.1","depth":1,"next":{"title":"正文","level":"1.2","depth":1,"ref":"","articles":[{"title":"第一节:  Todo01","level":"1.2.1","depth":2,"path":"src/Todo01/readme.md","ref":"src/Todo01/readme.md","articles":[]},{"title":"第二节:  Todo02","level":"1.2.2","depth":2,"path":"src/Todo02/readme.md","ref":"src/Todo02/readme.md","articles":[]},{"title":"第三节：Todo03","level":"1.2.3","depth":2,"path":"src/Todo03/readme.md","ref":"src/Todo03/readme.md","articles":[]},{"title":"第四节：Todo04","level":"1.2.4","depth":2,"path":"src/Todo04/readme.md","ref":"src/Todo04/readme.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-01-30T08:02:37.532Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-30T08:04:01.191Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"前言","level":"1.1","depth":1,"next":{"title":"正文","level":"1.2","depth":1,"ref":"","articles":[{"title":"第一节:  Todo01","level":"1.2.1","depth":2,"path":"src/Todo01/readme.md","ref":"src/Todo01/readme.md","articles":[]},{"title":"第二节:  Todo02","level":"1.2.2","depth":2,"path":"src/Todo02/readme.md","ref":"src/Todo02/readme.md","articles":[]},{"title":"第三节：Todo03","level":"1.2.3","depth":2,"path":"src/Todo03/readme.md","ref":"src/Todo03/readme.md","articles":[]},{"title":"第四节：Todo04","level":"1.2.4","depth":2,"path":"src/Todo04/readme.md","ref":"src/Todo04/readme.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-01-30T08:12:04.189Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-30T08:12:17.873Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

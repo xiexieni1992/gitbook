@@ -1,37 +1,9 @@
 # [gitbook](https://xiexieni1992.github.io/gitbook/)
-## 1、介绍
+## 介绍
 
 ​	这是一个基于GitBook + Typora + Git文档托管解决方案！
 
-​	
-
-## 2、使用gitbook
-
-### 2.1 安装并初始化gitbook
-
-```
-npm install -g gitbook-cli
-gitbook init
-```
-
-  执行完后。会有以下两个文件
-
-```
-README.md —— 书籍的介绍写在这个文件里
-SUMMARY.md —— 书籍的目录结构在这里配置
-```
-
-### 2.2 Typora 编写SUMMARY.md
-
-```
-* [前言](README.md)
-* 正文
-  * [段落](src/Todo01/README.md)
-  * [段落](src/Todo02/README.md)
-  * [段落](src/Todo03/README.md)
-  * [段落](src/Todo04/README.md)
-* [后记]
-```
+## ​1、目录结构
 
 ```
 ├─docs // github 静态资源文件夹
@@ -75,6 +47,34 @@ SUMMARY.md —— 书籍的目录结构在这里配置
 ```
 
 
+
+## 2、使用gitbook
+
+### 2.1 安装并初始化gitbook
+
+```
+npm install -g gitbook-cli
+gitbook init
+```
+
+  执行完后。会有以下两个文件
+
+```
+README.md —— 书籍的介绍写在这个文件里
+SUMMARY.md —— 书籍的目录结构在这里配置
+```
+
+### 2.2 Typora 编写SUMMARY.md
+
+```
+* [前言](README.md)
+* 正文
+  * [段落](src/Todo01/README.md)
+  * [段落](src/Todo02/README.md)
+  * [段落](src/Todo03/README.md)
+  * [段落](src/Todo04/README.md)
+* [后记]
+```
 
 保存后，命令行工具运行以下命令：
 
