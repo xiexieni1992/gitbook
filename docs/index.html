@@ -57,8 +57,6 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Content/" />
-    
     
 
     </head>
@@ -100,26 +98,26 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="Content/">
+        <li class="chapter " data-level="1.2" >
             
-                <a href="Content/">
+                <span>
             
                     
                     正文
             
-                </a>
+                </span>
             
 
             
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="C/">
+        <li class="chapter " data-level="1.2.1" data-path="src/Todo01/readme.html">
             
-                <a href="C/">
+                <a href="src/Todo01/readme.html">
             
                     
-                    第一节: 衣
+                    第一节:  Todo01
             
                 </a>
             
@@ -127,12 +125,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="F/RADME.html">
+        <li class="chapter " data-level="1.2.2" data-path="src/Todo02/readme.html">
             
-                <a href="F/RADME.html">
+                <a href="src/Todo02/readme.html">
             
                     
-                    第二节:  食
+                    第二节:  Todo02
             
                 </a>
             
@@ -140,12 +138,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="H/">
+        <li class="chapter " data-level="1.2.3" data-path="src/Todo03/readme.html">
             
-                <a href="H/">
+                <a href="src/Todo03/readme.html">
             
                     
-                    第三节：住
+                    第三节：Todo03
             
                 </a>
             
@@ -153,12 +151,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="W/">
+        <li class="chapter " data-level="1.2.4" data-path="src/Todo04/readme.html">
             
-                <a href="W/">
+                <a href="src/Todo04/readme.html">
             
                     
-                    第四节：行
+                    第四节：Todo04
             
                 </a>
             
@@ -171,14 +169,14 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="L/">
+        <li class="chapter " data-level="1.3" >
             
-                <a href="L/">
+                <span>
             
                     
                     后记
             
-                </a>
+                </span>
             
 
             
@@ -229,9 +227,37 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gitbook">gitbook</h1>
-<h1 id="this-is-a-demo-for-gitbook-website-">This is a demo for gitbook website !!!!</h1>
-
+                                <h1 id="gitbook"><a href="https://xiexieni1992.github.io/gitbook/" target="_blank">gitbook</a></h1>
+<h2 id="1&#x3001;&#x4ECB;&#x7ECD;">1&#x3001;&#x4ECB;&#x7ECD;</h2>
+<p>&#x200B;    &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;GitBook + Typora + Git&#x6587;&#x6863;&#x6258;&#x7BA1;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF01;</p>
+<h2 id="2&#x3001;&#x4F7F;&#x7528;gitbook">2&#x3001;&#x4F7F;&#x7528;gitbook</h2>
+<h3 id="21-&#x5B89;&#x88C5;&#x5E76;&#x521D;&#x59CB;&#x5316;gitbook">2.1 &#x5B89;&#x88C5;&#x5E76;&#x521D;&#x59CB;&#x5316;gitbook</h3>
+<pre><code>npm install -g gitbook-cli
+gitbook init
+</code></pre><p>  &#x6267;&#x884C;&#x5B8C;&#x540E;&#x3002;&#x4F1A;&#x6709;&#x4EE5;&#x4E0B;&#x4E24;&#x4E2A;&#x6587;&#x4EF6;</p>
+<pre><code>README.md &#x2014;&#x2014; &#x4E66;&#x7C4D;&#x7684;&#x4ECB;&#x7ECD;&#x5199;&#x5728;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x91CC;
+SUMMARY.md &#x2014;&#x2014; &#x4E66;&#x7C4D;&#x7684;&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#x5728;&#x8FD9;&#x91CC;&#x914D;&#x7F6E;
+</code></pre><h3 id="22-typora-&#x7F16;&#x5199;summarymd">2.2 Typora &#x7F16;&#x5199;SUMMARY.md</h3>
+<pre><code>* [&#x524D;&#x8A00;](README.md)
+* [&#x6B63;&#x6587;](C/README.md)
+  * [&#x6BB5;&#x843D;](D/README.md)
+* [&#x540E;&#x8BB0;](F/README.md)
+</code></pre><p>&#x4FDD;&#x5B58;&#x540E;&#xFF0C;&#x547D;&#x4EE4;&#x884C;&#x5DE5;&#x5177;&#x8FD0;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code>gitbook init
+</code></pre><p>GitBook &#x4F1A;&#x67E5;&#x627E; SUMMARY.md &#x6587;&#x4EF6;&#x4E2D;&#x63CF;&#x8FF0;&#x7684;&#x76EE;&#x5F55;&#x548C;&#x6587;&#x4EF6;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5219;&#x4F1A;&#x5C06;&#x5176;&#x521B;&#x5EFA;&#x3002;</p>
+<h3 id="23-&#x672C;&#x5730;&#x8FD0;&#x884C;gitbook">2.3 &#x672C;&#x5730;&#x8FD0;&#x884C;gitbook</h3>
+<pre><code>gitbook serve --port 8088
+</code></pre><p>&#x6267;&#x884C; <code>gitbook serve</code> &#x6765;&#x9884;&#x89C8;&#x8FD9;&#x672C;&#x4E66;&#x7C4D;,&#x51FA;&#x73B0; Serving book on <a href="http://localhost:8088/" target="_blank">http://localhost:8088</a>&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x8FDB;&#x884C;&#x672C;&#x5730;&#x8BBF;&#x95EE;&#x3002;</p>
+<h3 id="24-&#x6784;&#x5EFA;gitbook">2.4 &#x6784;&#x5EFA;gitbook</h3>
+<pre><code>gitbook build ./ docs
+</code></pre><h3 id="25-&#x5176;&#x5B83;&#x683C;&#x5F0F;">2.5 &#x5176;&#x5B83;&#x683C;&#x5F0F;</h3>
+<pre><code>gitbook pdf ./ ./xxx.pdf
+gitbook epub ./ ./xxx.epub
+gitbook mobi ./ ./xxx.mobi
+</code></pre><h2 id="3&#x3001;git&#x6258;&#x7BA1;&#x9759;&#x6001;&#x7F51;&#x7AD9;">3&#x3001;Git&#x6258;&#x7BA1;&#x9759;&#x6001;&#x7F51;&#x7AD9;</h2>
+<p>&#x8FDB;&#x5165;github=&gt;Setting=&gt;GitHub Pages=&gt;Source</p>
+<pre><code>master branch /docs dolder
+</code></pre>
                                 
                                 </section>
                             
@@ -259,10 +285,6 @@
             
                 
                 
-                <a href="Content/" class="navigation navigation-next navigation-unique" aria-label="Next page: 正文">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
             
         
     </div>
@@ -270,7 +292,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"前言","level":"1.1","depth":1,"next":{"title":"正文","level":"1.2","depth":1,"path":"Content/README.md","ref":"Content/README.md","articles":[{"title":"第一节: 衣","level":"1.2.1","depth":2,"path":"C/README.md","ref":"C/README.md","articles":[]},{"title":"第二节:  食","level":"1.2.2","depth":2,"path":"F/RADME.md","ref":"F/RADME.md","articles":[]},{"title":"第三节：住","level":"1.2.3","depth":2,"path":"H/README.md","ref":"H/README.md","articles":[]},{"title":"第四节：行","level":"1.2.4","depth":2,"path":"W/README.md","ref":"W/README.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-01-30T06:26:27.119Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-30T07:06:00.988Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"前言","level":"1.1","depth":1,"next":{"title":"正文","level":"1.2","depth":1,"ref":"","articles":[{"title":"第一节:  Todo01","level":"1.2.1","depth":2,"path":"src/Todo01/readme.md","ref":"src/Todo01/readme.md","articles":[]},{"title":"第二节:  Todo02","level":"1.2.2","depth":2,"path":"src/Todo02/readme.md","ref":"src/Todo02/readme.md","articles":[]},{"title":"第三节：Todo03","level":"1.2.3","depth":2,"path":"src/Todo03/readme.md","ref":"src/Todo03/readme.md","articles":[]},{"title":"第四节：Todo04","level":"1.2.4","depth":2,"path":"src/Todo04/readme.md","ref":"src/Todo04/readme.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-01-30T08:02:37.532Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-30T08:04:01.191Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
